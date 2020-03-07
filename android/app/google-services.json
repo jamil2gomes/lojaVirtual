@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618070508843",
+    "firebase_url": "https://lojaflutterv1.firebaseio.com",
+    "project_id": "lojaflutterv1",
+    "storage_bucket": "lojaflutterv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618070508843:android:6bb106363cd33e2409716e",
+        "android_client_info": {
+          "package_name": "jamilapp.com.br.loja_virtual_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618070508843-ut4cjel5dk8ddi51456a7pv42rae8b4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArcbqFFpFxnVydihWknWmOFbV98kb7zbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618070508843-ut4cjel5dk8ddi51456a7pv42rae8b4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
