@@ -76,8 +76,8 @@ class UserModel extends Model{
     return firebaseUser != null;
   }
 
-  void recoverPass(){
-
+  void recoverPass(String email){
+    _auth.sendPasswordResetEmail(email: email);
   }
 
   Future<Null>_saveUserData(Map<String, dynamic> userData) async{

@@ -63,7 +63,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     alignment: Alignment.centerRight,
                     child: FlatButton(
                       padding: EdgeInsets.zero,
-                      onPressed: (){},
+                      onPressed: (){
+                        _recuperarEmail(model, _emailController.text);
+                      },
                       child: Text('Esqueci minha senha', textAlign: TextAlign.right,),
                     ),
                   ),
@@ -108,5 +110,27 @@ class _LoginScreenState extends State<LoginScreen> {
           duration: Duration(seconds: 2),)
     );
 
+  }
+
+  void _recuperarEmail(model, String email){
+
+    if(email.isEmpty){
+      _scaffoldKey.currentState.showSnackBar(
+          SnackBar(
+            content: Text("Insira seu e-mail para recuperação"),
+            backgroundColor: Colors.redAccent,
+            duration: Duration(seconds: 2),)
+      );
+    }else{
+      model.recoverPassword(email);
+
+      _scaffoldKey.currentState.showSnackBar(
+          SnackBar(
+            content: Text("Confira seu email!"),
+            backgroundColor: Theme.of(context).primaryColor,
+            duration: Duration(seconds: 2),)
+      );
+
+    }
   }
 }
