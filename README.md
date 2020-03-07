@@ -2,36 +2,34 @@
 
 Loja Virtual com Flutter e Firebase [em construção]
 
-## Getting Started
+## Telas
 
-* Página Inicial do Aplicativo
+[Página Inicial do Aplicativo](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem1.jpeg)
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem1.jpeg)
 
-* Barra Lateral do Aplicativo
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem2.jpeg)
+[Barra Lateral do Aplicativo](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem2.jpeg)
 
-* Listagem dos produtos por categoria
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem3.jpeg)
 
-* Listagem dos produtos em formato de grade
+[Listagem dos produtos por categoria](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem3.jpeg)
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem4.jpeg)
 
-* Listagem dos produtos em formato de lista
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem5.jpeg)
+[Listagem dos produtos em formato de grade](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem4.jpeg)
 
-* Listagem dos produtos em detalhes
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem6.jpeg)
 
-* Tela de Login
+[Listagem dos produtos em formato de lista](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem5.jpeg)
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem7.jpeg)
 
-* Tela de cadastro
 
-[alt text](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem8.jpeg)
+[Listagem dos produtos em detalhes](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem6.jpeg)
+
+
+
+[Tela de Login](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem7.jpeg)
+
+
+
+[Tela de cadastro](https://github.com/jamil2gomes/lojaVirtual/blob/master/imagens_app/imagem8.jpeg)
