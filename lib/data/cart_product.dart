@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:loja_virtual_app/model/product.dart';
+import 'package:loja_virtual_app/data/product.dart';
 
 class CartProduct{
   String id;
@@ -9,6 +9,8 @@ class CartProduct{
   String size;
 
   Product product;
+
+  CartProduct();
 
 
   CartProduct.fromDocument(DocumentSnapshot doc){
@@ -22,7 +24,7 @@ class CartProduct{
   Map<String, dynamic>toMap(){
     return{
       'category' : category,
-      'prproduct_id' : product_id,
+      'product_id' : product_id,
       'quantity': quantity,
       'size' : size,
       'product': product.toResumedMap()

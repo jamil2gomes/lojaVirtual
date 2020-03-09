@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:loja_virtual_app/model/product.dart';
+import 'package:loja_virtual_app/data/product.dart';
 import 'package:loja_virtual_app/widgets/product_tile.dart';
 
 class ProductScreen extends StatelessWidget {
@@ -15,7 +15,7 @@ class ProductScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Produtos'),
+          title: Text(snapshot.data['title']),
           centerTitle: true,
           bottom: TabBar(
             indicatorColor: Colors.white,
@@ -58,7 +58,9 @@ class ProductScreen extends StatelessWidget {
         ),
         itemCount: snapshot.data.documents.length,
         itemBuilder: (context, index){
-          return ProductTile('grid', Product.fromDocument(snapshot.data.documents[index]));
+          Product data = Product.fromDocument(snapshot.data.documents[index]);
+          data.category = this.snapshot.documentID;
+          return ProductTile('grid', data);
         });
   }
 
@@ -67,7 +69,9 @@ class ProductScreen extends StatelessWidget {
         padding: EdgeInsets.all(4.0),
         itemCount: snapshot.data.documents.length,
         itemBuilder: (context, index) {
-          return ProductTile('list', Product.fromDocument(snapshot.data.documents[index]));
+          Product data = Product.fromDocument(snapshot.data.documents[index]);
+          data.category = this.snapshot.documentID;
+          return ProductTile('list', data);
         }
         );
   }
