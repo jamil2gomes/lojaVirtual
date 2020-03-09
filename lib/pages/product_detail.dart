@@ -122,6 +122,7 @@ class _ProductDetailState extends State<ProductDetail> {
                                 cartProduct.category = product.category;
 
                                 CartModel.of(context).addCartItem(cartProduct);
+
                                 Navigator.of(context).push(MaterialPageRoute(
                                     builder: (context) => CartScreen()));
                               } else {

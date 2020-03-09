@@ -27,7 +27,7 @@ class CartProduct{
       'product_id' : product_id,
       'quantity': quantity,
       'size' : size,
-      'product': product.toResumedMap()
+      //'product': product.toResumedMap()
     };
   }
 }
